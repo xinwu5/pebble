@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="assets/logo.png" width="84" align="center" alt="Pebble logo" />
+  <img src="assets/logo.png" width="104" align="center" alt="Pebble logo" />
   &nbsp;Pebble
+  <br/>
+  <sub>A light markdown editor for macOS</sub>
 </h1>
-
-<p align="center">A light markdown editor for macOS</p>
 
 Pebble is a small, fast desktop markdown editor built for people who edit a lot of markdown on a small screen. It gives you in-place WYSIWYG editing (no clutter of raw syntax), plus source and split-preview modes, all in a tidy tabbed window.
 

@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="assets/logo.png" width="140" alt="Pebble logo" />
-</p>
-
-<h1 align="center">Pebble</h1>
+<h1 align="center">
+  <img src="assets/logo.png" width="56" align="center" alt="Pebble logo" />
+  &nbsp;Pebble
+</h1>
 
 <p align="center">Pebble — a light markdown editor for macOS</p>
 

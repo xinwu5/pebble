@@ -1,10 +1,7 @@
 <h3 align="center">
   <img src="assets/logo.png" width="120" align="center" alt="Pebble logo" />
   &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png" />
-    <img src="assets/wordmark-light.png" height="60" align="center" alt="Pebble" />
-  </picture>
+  <img src="assets/wordmark.png" height="60" align="center" alt="Pebble" />
 </h3>
 
 <p align="center">A light markdown editor for macOS</p>

@@ -32,6 +32,16 @@ Pebble is a small, fast desktop markdown editor built for people who edit a lot 
 - **Drag and drop** files to open them
 - Status bar with word and character counts
 
+## Install
+
+[Download the latest `.dmg`](https://github.com/xinwu5/pebble/releases/latest) (Apple Silicon), open it, and drag **Pebble** into Applications. On first launch, right-click the app and choose **Open**.
+
+If macOS says Pebble is **"damaged"**, that is the download quarantine on an unsigned free app. Clear it once in Terminal, then open normally:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Pebble.app
+```
+
 ## Run from source
 
 Requirements: Node.js and Rust (via [rustup](https://rustup.rs)).
@@ -49,7 +59,7 @@ npm run tauri build
 
 The packaged app and installer land in `src-tauri/target/release/bundle/` (`Pebble.app` and a `.dmg`).
 
-Because the app is not signed with a paid Apple Developer certificate, the first time you open it macOS Gatekeeper may warn you. Right-click the app and choose **Open**, then confirm. You only need to do this once.
+Because the app is not signed with a paid Apple Developer certificate, the first time you open it macOS Gatekeeper may warn you. Right-click the app and choose **Open**, then confirm. If it reports the app is "damaged", run `xattr -dr com.apple.quarantine /Applications/Pebble.app` once.
 
 ## Stack
 

@@ -161,8 +161,10 @@ A clean, formatted view.
       <ol>
         <li><a href="https://github.com/xinwu5/pebble/releases/latest/download/Pebble_0.1.0_aarch64.dmg"><b>Download the dmg</b></a> and open it.</li>
         <li>Drag <b>Pebble</b> into your Applications folder.</li>
-        <li>The first time, right click the app and choose <b>Open</b>, then confirm. You only need to do this once.</li>
+        <li>The first time, right click the app and choose <b>Open</b>, then confirm.</li>
       </ol>
+      <p style="color:var(--muted);margin:18px 0 6px"><b style="color:var(--text)">If macOS says Pebble is &ldquo;damaged&rdquo;</b><br/>macOS quarantines apps downloaded from the internet. Clear the flag once in Terminal, then open normally:</p>
+      <pre class="mono" style="background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow:auto;color:#a6d4ff">xattr -dr com.apple.quarantine /Applications/Pebble.app</pre>
     </div>
   </div>
 </section>

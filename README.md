@@ -9,6 +9,12 @@
 
 <p align="center">A light markdown editor for macOS</p>
 
+<p align="center">
+  <a href="https://xinwu5.github.io/pebble/">Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/xinwu5/pebble/releases/latest">Download</a>
+</p>
+
 ---
 
 Pebble is a small, fast desktop markdown editor built for people who edit a lot of markdown on a small screen. It gives you in-place WYSIWYG editing (no clutter of raw syntax), plus source and split-preview modes, all in a tidy tabbed window.
